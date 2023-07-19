@@ -68,11 +68,19 @@
 .gamer-description,.gamer-description h3 ,.gamer-description p{
     text-align: center;
 }
+.online-wrapper{
+    grid-template-columns: repeat(1,1fr);  
+    gap: 20px;
+}
+
+.header-description > p{
+    font-size: 16px;
+}
 
 }
 
 /* for tablet */
-@media screen and (max-width: 768px ) {
+@media screen and (min-width:426px )and (max-width: 768px ) {
     .container{
         width: 100%;
     }
@@ -94,5 +102,11 @@
     }
     .gamer-description,.gamer-description h3 ,.gamer-description p{
         text-align: center;
+    }
+    .online-wrapper{
+        grid-template-columns: repeat(2,1fr);  
+        margin-right: 91px; 
+        margin-left: 91px;
+       
     }
 }
