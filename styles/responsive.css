@@ -113,6 +113,48 @@
     font-weight: 400;
 }
 
+/* play game */
+
+.play-game-wrp {
+    flex-direction: column;
+    width: 67%;
+}
+.side-text {
+    width: 85%;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.side-text h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    width: 312px;
+}
+.side-text p {
+    line-height: 14px;
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.rel-img {
+    position: relative;
+}
+
+img.font-img {
+    width: 60px;
+    position: absolute;
+    z-index: 1;
+    bottom: -33px;
+    left: 89px;
+}
+.rel-img .back-img {
+    width: 244.833px;
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repeat;
+}
+
 }
 
 /* for tablet */
