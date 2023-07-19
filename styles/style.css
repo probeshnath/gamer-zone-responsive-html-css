@@ -466,3 +466,7 @@ height: 40px;
 .social-icons > i.fa-brands.fa-youtube {
     color: white;
 }
+
+.hide{
+    display: none;
+}
