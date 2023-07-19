@@ -249,7 +249,7 @@ margin-bottom: 15px;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
     justify-items: center;
-  align-items: center;
+   align-items: center;
 
 }
 .single-card{
@@ -289,3 +289,94 @@ margin-bottom: 15px;
 
 
 
+/* footer */
+footer{
+    background: #0B0223;
+    padding: 80px 0px 40px 0px;
+}
+.footer-wrp{
+    /* width: 50%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-wrap: wrap;
+    
+}
+
+.logo-part-end{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+
+}
+.logo-part-end h2{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.logo-part-end img{
+   
+    width: 79.041px;
+    height: 36px;
+}
+.short-nav {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    /* flex-wrap: wrap; */
+
+}
+.short-nav li{
+    list-style: none;
+}
+.short-nav li a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: white;
+    color: #FFF;
+font-size: 17px;
+font-weight: 400;
+}
+.terms-condi{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.terms-condi li{
+    list-style: none;
+}
+.terms-condi li a{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+text-decoration: none;
+margin-left: 20px;
+}
+.footer-wrp p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.social-icons > i {
+    width: 57.13px;
+height: 40px;
+}
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    color: white !important;
+    font-size: 20px;
+    flex-wrap: wrap;
+
+}
+.social-icons > i.fa-brands.fa-youtube {
+    color: white;
+}
