@@ -146,7 +146,7 @@ cursor: pointer;
 transition: 1s;
 }
 .button > .button-1{
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 border: 1px solid #FF42A5;
 
 }
@@ -259,27 +259,26 @@ margin-bottom: 15px;
 }
 .single-card img{
     width: 250px;
-    position: relative;
+    /* position: relative; */
 }
 /* hover effect ill be here */
 .hover-effect{
+    display: none;
+}
+.single-card:hover > .hover-effect{
     position: absolute;
     top: 0px;
     width: 92%;
     background: #000000a3;
     height: 88%;
     border-radius: 14px;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    /* opacity: 0; */
 }
-.single-card img:hover .hover-effect{
-   /* opacity: 1;
-   dis */
-   display: block;
-}
+
+
 
 
 /* Play Games Online Anywhere, Anytime! */
@@ -287,7 +286,6 @@ margin-bottom: 15px;
 .rel-img .back-img{
     width: 500.833px;
     border-radius: 8px;
-    background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repeat;
 }
 .play-game-wrp {
     display: flex;

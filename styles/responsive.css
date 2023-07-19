@@ -97,20 +97,24 @@
     margin-bottom: 15px;
 }
 .game-wrapper{
-    width: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 27px;
 }
 .single-game{
-    width: 30%;
-    padding: 0px;
-    margin: 0px;
+    width: 100%;
+    padding: 5px;
+    margin: auto;
 }
 .single-game img{
-    width: 15px;
+    width: 30px;
 }
 .single-game p{
     color: #0B0223;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* play game */
