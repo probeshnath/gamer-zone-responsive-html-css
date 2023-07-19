@@ -96,7 +96,22 @@
 .footer-wrp > div{
     margin-bottom: 15px;
 }
-
+.game-wrapper{
+    width: 100%;
+}
+.single-game{
+    width: 30%;
+    padding: 0px;
+    margin: 0px;
+}
+.single-game img{
+    width: 15px;
+}
+.single-game p{
+    color: #0B0223;
+    font-size: 12px;
+    font-weight: 400;
+}
 
 }
 
