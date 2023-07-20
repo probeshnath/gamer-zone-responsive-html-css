@@ -162,6 +162,16 @@ border: 1px solid #FF42A5;
   background-color: transparent;
   color: #4EC5F7;
 }
+.hover-effect div > p {
+    display: block;
+    font-size: 20px;
+    color: white;
+}
+/* .flex-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
 
 /* <!-- we are gamer --> */
 
@@ -276,6 +286,8 @@ margin-bottom: 15px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    flex-direction: column;
+    gap: 10px;
 }
 
 
@@ -335,6 +347,7 @@ img.font-img {
     border: 2px solid #FF42A5;
     padding: 5px 15px;
     border-radius: 25px;
+    background-color: white;
 }
 
 /* Play Games Online Anywhere, Anytime! */
@@ -352,6 +365,8 @@ img.font-img {
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
     
 }
 .game-wrapper{
@@ -452,7 +467,8 @@ margin-left: 20px;
 
 .social-icons > i {
     width: 57.13px;
-height: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 .social-icons {
     display: grid;
@@ -463,10 +479,23 @@ height: 40px;
     flex-wrap: wrap;
 
 }
-.social-icons > i.fa-brands.fa-youtube {
+.social-icons li a > i.fa-brands.fa-youtube {
     color: white;
 }
+.social-icons li a > i.fa-brands.fa-youtube:hover{
+    color: orangered ;
 
-.hide{
-    display: none;
+}
+.social-icons li a > i:hover {
+    color: orangered ;
+}
+.social-icons li {
+list-style: none;
+}
+.social-icons li a{
+    color: white;
+}
+.hover-effect.flex-box div > i {
+    color: white;
+    font-size: 20px;
 }
